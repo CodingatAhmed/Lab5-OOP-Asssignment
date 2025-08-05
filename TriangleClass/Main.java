@@ -43,13 +43,13 @@ public class Main {
         System.out.println("Is t5 Right Angled? " + t5.isRightAngled());
         System.out.println();
 
-        // 7. Testing getters (Note: your current getters are named SetSideA(), SetSideB(), SetSideC() — should be renamed)
+        // 7. Testing getters
         System.out.println("t5 SideA: " + t5.GetSideA());
         System.out.println("t5 SideB: " + t5.GetSideB());
         System.out.println("t5 SideC: " + t5.GetSideC());
         System.out.println();
 
-        // 8. Object count
+        // 8. Count Number of Triangle Objects
         System.out.println("Total Triangle objects created: " + Triangle.TotalTriangles());
     }
 }
